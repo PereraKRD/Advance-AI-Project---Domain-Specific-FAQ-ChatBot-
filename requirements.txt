@@ -1,0 +1,13 @@
+setuptools
+-e .
+fastapi
+uvicorn
+langchain
+langchain-openai
+langchain_community
+langchain_core
+langchain_pinecone
+python-dotenv
+faiss-cpu
+pypdf
+streamlit
