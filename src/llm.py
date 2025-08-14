@@ -3,7 +3,7 @@ from langchain_openai import ChatOpenAI
 from langchain.chains import create_retrieval_chain
 from langchain.chains import create_history_aware_retriever
 from langchain.chains.combine_documents import create_stuff_documents_chain
-from src.pinecone_vectorstore import vectorstore
+from src.faiss_vectorstore import vectorstore
 from src.prompt import *
 from dotenv import load_dotenv
 
