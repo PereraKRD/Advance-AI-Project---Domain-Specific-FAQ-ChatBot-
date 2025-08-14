@@ -20,7 +20,7 @@ if PINECONE_INDEX is None:
 embedding_model = OpenAIEmbeddings( api_key=OPENAI_API_KEY, model="text-embedding-3-small", disallowed_special=())
 
 def retrieve_from_existing_pinecone_vectorstore():
-    return PineconeVectorStore.from_existing_index(embedding=embedding_model,index_name=PINECONE_INDEX, namespace="test" )
+    return PineconeVectorStore.from_existing_index(embedding=embedding_model,index_name=PINECONE_INDEX, namespace="boc" )
 
 
 vectorstore = retrieve_from_existing_pinecone_vectorstore()
