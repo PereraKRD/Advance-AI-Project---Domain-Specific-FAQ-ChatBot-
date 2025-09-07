@@ -15,7 +15,7 @@ if OPENAI_API_KEY is None:
 
 llm = ChatOpenAI(
     api_key=OPENAI_API_KEY,
-    model="gpt-4o-mini",
+    model="gpt-4o-nano",
     temperature=0
 )
 
